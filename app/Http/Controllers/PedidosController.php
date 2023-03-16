@@ -11,7 +11,7 @@ class PedidosController extends Controller
      */
     public function index()
     {
-        //
+        return 'oi';
     }
 
     /**
