@@ -3,23 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Pedido;
 
 class PedidosController extends Controller
 {
-    /**
-     * Lista todos os gatos cadastrados
-     */
+    
     public function index()
     {
-        return 'oi';
+        $pedidos = Pedido::all();
+        return view('pedidos.index', compact('pedidos'));
     }
 
-    /**
-     * Mostra o formulário para criar um novo gato
-     */
     public function create()
     {
-        //
+        return view('pedidos.create');
     }
 
     /**
