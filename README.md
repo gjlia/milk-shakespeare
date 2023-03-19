@@ -1,4 +1,4 @@
-# MilkShakespeare
+# MilkShakespeare - Um café digno de um monólogo
 
 ## Bebidas
 
