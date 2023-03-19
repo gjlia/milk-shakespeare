@@ -16,7 +16,6 @@ class Pedido extends Model
     protected $fillable = [
         'nome_funcionario',
         'data_pedido',
-        'produtos',
         'descricao_pedidos',
         'preco_final'
     ];
