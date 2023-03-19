@@ -17,8 +17,7 @@ class Pedido extends Model
         'nome_funcionario',
         'data_pedido',
         'produtos',
-        'preco_final',
         'descricao_pedidos',
-        'desconto'
+        'preco_final'
     ];
 }
