@@ -17,7 +17,6 @@ return new class extends Migration
             $table->id();
             $table->string('nome_funcionario');
             $table->string('data_pedido');
-            $table->string('produtos');
             $table->text('descricao_pedidos');
             $table->string('preco_final');
             
