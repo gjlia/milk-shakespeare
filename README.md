@@ -1,66 +1,51 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# MilkShakespeare
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Bebidas
 
-## About Laravel
+- Macbeth Mocha (R$ 9,00)
+- Romeo and Juliet Red Velvet Latte (R$ 12,00)
+- Jane Eyre Java (R$ 8,00)
+- The Great Gatsby Green Tea Frappuccino (R$ 12,00)
+- Pride and Prejudice Pumpkin Spice Latte (R$ 10,00)
+- Wuthering Heights White Chocolate Mocha (R$ 11,00)
+- Alice in Wonderland Almond Milk Latte (R$ 9,00)
+- The Catcher in the Rye Caramel Latte (R$ 10,00)
+- The Hobbit Hot Cocoa (R$ 8,00)
+- To Kill a Mockingbird Mint Mocha (R$ 11,00)
+- The Picture of Dorian Gray Peanut Butter Cup Frappuccino (R$ 12,00)
+- Les Misérables Lavender Latte (R$ 11,00)
+- The Secret Garden Strawberry Smoothie (R$ 8,00)
+- Harry Potter Hot Butterbeer (R$ 9,00)
+- Little Women Lemonade (R$ 7,00)
+- The Hunger Games Honey Latte (R$ 10,00)
+- 1984 Orange Mocha (R$ 9,00)
+- The Odyssey Oat Milk Latte (R$ 11,00)
+- The Canterbury Tales Chai Tea Latte (R$ 9,00)
+- Frankenstein Frozen Mocha (R$ 12,00)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Sobremesas
+- Star Wars Chocolate Truffles (R$ 4,50)
+- Jurassic Park Dino Egg Cupcakes (R$ 6,00)
+- Marvel Superhero Cake Pops (R$ 3,50)
+- Harry Potter Butterbeer Cupcakes (R$ 7,50)
+- Lord of the Rings Elvish Lembas Bread (R$ 5,00)
+- Game of Thrones Dragon Eggs Truffles (R$ 4,50)
+- Batman Dark Knight Brownies (R$ 5,00)
+- Disney Princess Macarons (R$ 4,00)
+- Indiana Jones Adventure Cookies (R$ 3,00)
+- Pirates of the Caribbean Treasure Chest Cake (R$ 7,00)
+- The Wizard of Oz Ruby Slipper Cupcakes (R$ 7,00)
+- Ghostbusters Marshmallow Pops (R$ 3,50)
+- Back to the Future DeLorean Cookies (R$ 4,00)
+- The Lion King Simba's Pride Cookies (R$ 3,00)
+- Jurassic World Fossil Cookies (R$ 3,50)
+- Rocky Road to Gotham City Bars (R$ 6,00)
+- Toy Story Alien Cake Pops (R$ 4,50)
+- The Avengers Infinity Stone Macarons (R$ 4,50)
+- Wonder Woman Lasso of Truth Twists (R$ 5,00)
+- The Matrix Red Pill Blue Pill Jellies (R$ 4,00)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Contato
+Telefone: +1 (800) 451-4510
+Email: milkshakespeare@milkshakespeare.com
+Endereço: 221B Baker Street, Londres, Reino Unido
