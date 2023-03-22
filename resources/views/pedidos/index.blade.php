@@ -12,6 +12,8 @@
         <div class="container">
             <h1>Lista de Pedidos</h1>
 
+            <a class="btn btn-outline-success my-2" href="{{ route('pedidos.create') }}">Novo Pedido</a>
+
             <table class="table table-hover table-bordered table-primary">
                 <tr class="table-dark">
                     <th>Funcionário</th>

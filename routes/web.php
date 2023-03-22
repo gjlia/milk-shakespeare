@@ -22,7 +22,7 @@ Route::get('/pedidos', [PedidosController::class, 'index'])->name('pedidos.index
 
 Route::get('/pedidos/create', [PedidosController::class, 'create'])->name('pedidos.create');
 
-Route::get('/pedidos/{id}', [PedidosController::class, 'show'])->name('pedidos.show');
+Route::get('/pedidos/{pedido}', [PedidosController::class, 'show'])->name('pedidos.show');
 
 Route::get('/pedidos/{id}/edit', [PedidosController::class, 'edit'])->name('pedidos.edit');
 
