@@ -25,7 +25,11 @@
                     <tr>
                         <td>{{ $pedido->data_pedido }}</td>
                         <td>{{ $pedido->descricao_pedidos }}</td>
-                        <td></td>
+                        <td>
+                            <a class="link" href="{{ route('pedidos.show', $pedido->id) }}">
+                                Ver
+                            </a>
+                        </td>
                     </tr>
                 @endforeach
             </table>
