@@ -16,19 +16,15 @@
 
             <table class="table table-hover table-bordered table-primary">
                 <tr class="table-dark">
-                    <th>Funcionário</th>
                     <th>Data</th>
                     <th>Descrição</th>
-                    <th>Preço</th>
                     <th></th>
                 </tr>
 
                 @foreach ($pedidos as $pedido)
                     <tr>
-                        <td>{{ $pedido->nome_funcionario }}</td>
                         <td>{{ $pedido->data_pedido }}</td>
                         <td>{{ $pedido->descricao_pedidos }}</td>
-                        <td>{{ $pedido->preco_final }}</td>
                         <td></td>
                     </tr>
                 @endforeach
