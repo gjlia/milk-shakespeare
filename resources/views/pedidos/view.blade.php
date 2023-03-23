@@ -19,9 +19,9 @@
             <h3>{{ $pedido->data_pedido }}</h3><h2> - Ricardo Valente</h2>
             @endif
 
-            <h3>{{ $pedido->descricao_pedidos }}</h3>
+            <p>{{ $pedido->descricao_pedidos }}</p>
 
-            <h3>Preço: {{ $pedido->valor_final }} reais.</h3>
+            <h3>Preço: {{ $pedido->preço_final }}</h3>
 
             <a href="{{ route('pedidos.index') }}">Voltar à Lista</a>
         </div>
