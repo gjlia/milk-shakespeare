@@ -10,7 +10,7 @@ class Pedido extends Model
     use HasFactory;
 
     // Indica o nome da tabela do banco de dados
-    protected $table = "milkshakespeare";
+    protected $table = "pedidos";
 
     // Indica os campos que podem ser preenchidos pelo usuário
     protected $fillable = [
