@@ -36,7 +36,7 @@ class PedidosController extends Controller
     /**
      * Mostra um gato específico
      */
-    public function show($id)
+    public function show(Pedido $pedido)
     {
         return view('pedidos.view', compact('pedido'));
     }
