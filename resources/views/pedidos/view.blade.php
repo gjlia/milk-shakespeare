@@ -21,7 +21,7 @@
 
             <p>{{ $pedido->descricao_pedidos }} - R$ {{ $pedido->preco_final }}</p>
 
-            <a href="{{ route('pedidos.index') }}">Voltar à Lista</a>
+            <a class="btn btn-outline-success my-2" href="{{ route('pedidos.index') }}">Voltar à Lista</a>
         </div>
     </body>
 </html>
