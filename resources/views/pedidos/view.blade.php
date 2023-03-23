@@ -12,16 +12,14 @@
         <div class="container">
 
             @if($pedido->nome_funcionario == 'RM')
-            <h3>{{ $pedido->data_pedido }}</h3><h2> - Rodrigo Macário</h2>
+            <h2>Rodrigo Macário</h2><h3>{{ $pedido->data_pedido }}</h3>
             @elseif($pedido->nome_funcionario == 'BR')
-            <h3>{{ $pedido->data_pedido }}</h3><h2> - Beatriz Rosalina</h2>
+            <h3>Beatriz Rosalina</h2><h3>{{ $pedido->data_pedido }}</h3>
             @elseif($pedido->nome_contratacao == 'RV')
-            <h3>{{ $pedido->data_pedido }}</h3><h2> - Ricardo Valente</h2>
+            <h3>Ricardo Valente</h2><h3>{{ $pedido->data_pedido }}</h3>
             @endif
 
-            <p>{{ $pedido->descricao_pedidos }}</p>
-
-            <h3>Preço: {{ $pedido->preço_final }}</h3>
+            <p>{{ $pedido->descricao_pedidos }} - R$ {{ $pedido->preco_final }}</p>
 
             <a href="{{ route('pedidos.index') }}">Voltar à Lista</a>
         </div>
