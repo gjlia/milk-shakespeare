@@ -38,7 +38,7 @@ class PedidosController extends Controller
      */
     public function show($id)
     {
-        //
+        return 'Oi, eu sou o pedido de id ' . $id . '!';
     }
 
     /**
