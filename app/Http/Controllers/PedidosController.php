@@ -30,7 +30,7 @@ class PedidosController extends Controller
 
         $pedido->save();
 
-        return redirect()->route('pedidos.show', $pedido->id);
+        return redirect()->route('pedidos.index');
     }
 
     /**

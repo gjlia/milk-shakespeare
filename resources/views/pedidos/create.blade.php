@@ -40,7 +40,7 @@
                 </div>
 
                 <div>
-                    <input type="submit" value="Salvar Pedido" class="btn btn-primary" href="{{ route('pedidos.create') }}">
+                    <input type="submit" value="Salvar Pedido" class="btn btn-primary">
                 </div>
             </form>
         </div>
