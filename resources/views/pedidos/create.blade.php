@@ -28,7 +28,7 @@
                     <label>Data do Pedido:</label>
                     <input type="text" name="data_pedido" class="form-control">
                 </div>
-                
+
                 <div class="mb-3">
                     <label>Descrição do Pedido:</label>
                     <textarea name="descricao_pedidos" id="" rows="5" class="form-control"></textarea>
@@ -36,7 +36,7 @@
 
                 <div class="mb-3">
                     <label>Preço do Pedido:</label>
-                    <input type="number" name="preco_final" class="form-control">
+                    <input type="text" name="preco_final" class="form-control">
                 </div>
 
                 <div>
