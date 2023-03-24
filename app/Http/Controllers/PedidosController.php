@@ -44,7 +44,7 @@ class PedidosController extends Controller
     /**
      * Mostra o formulário para editar um gato específico
      */
-    public function edit($id)
+    public function edit(Pedido $pedido)
     {
         return view('pedidos.edit', compact('pedido'));
     }
@@ -52,7 +52,7 @@ class PedidosController extends Controller
     /**
      * Atualiza um gato específico
      */
-    public function update(Request $request, $id)
+    public function update(Request $requisicao, Pedido $pedido)
     {
         $pedido->update($requisicao->all());
         return redirect()->route('pedidos.show', $pedido->id);
