@@ -24,10 +24,10 @@ Route::get('/pedidos/create', [PedidosController::class, 'create'])->name('pedid
 
 Route::get('/pedidos/{pedido}', [PedidosController::class, 'show'])->name('pedidos.show');
 
-Route::get('/pedidos/{id}/edit', [PedidosController::class, 'edit'])->name('pedidos.edit');
+Route::get('/pedidos/{pedido}/edit', [PedidosController::class, 'edit'])->name('pedidos.edit');
 
 Route::post('/pedidos', [PedidosController::class, 'store'])->name('pedidos.store');
 
-Route::put('/pedidos/{id}', [PedidosController::class, 'update'])->name('pedidos.update');
+Route::put('/pedidos/{pedido}', [PedidosController::class, 'update'])->name('pedidos.update');
 
 Route::delete('/pedidos/{id}', [PedidosController::class, 'destroy'])->name('pedidos.destroy');
