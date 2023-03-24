@@ -20,7 +20,7 @@
                     <label>Nome Funcionário:</label>
                     <select name="nome_funcionario" class="form-control">
                         <option value="RM" {{ $pedido->nome_funcionario == 'RM' ? 'selected' : '' }}>Rodrigo Macário</option>
-                        <option value="BR" {{ $pedido->nome_funcionario == 'BR ? 'selected' : '' }}>Beatriz Rosalina</option>
+                        <option value="BR" {{ $pedido->nome_funcionario == 'BR' ? 'selected' : '' }}>Beatriz Rosalina</option>
                         <option value="RV" {{ $pedido->nome_funcionario == 'RV' ? 'selected' : '' }}>Ricardo Valente</option>
                     </select>
                 </div>
