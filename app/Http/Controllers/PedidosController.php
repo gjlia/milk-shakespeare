@@ -30,7 +30,7 @@ class PedidosController extends Controller
 
         $pedido->save();
 
-        return redirect()->route('pedidos.index');
+        return redirect()->route('pedidos.show', $pedido->id);
     }
 
     /**
@@ -46,7 +46,7 @@ class PedidosController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('pedidos.edit', compact('pedido'));
     }
 
     /**
@@ -54,7 +54,8 @@ class PedidosController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $pedido->update($requisicao->all());
+        return redirect()->route('pedidos.show', $pedido->id);
     }
 
     /**
