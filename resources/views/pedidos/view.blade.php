@@ -15,13 +15,21 @@
             <h2>Rodrigo Macário</h2><h3>{{ $pedido->data_pedido }}</h3>
             @elseif($pedido->nome_funcionario == 'BR')
             <h3>Beatriz Rosalina</h2><h3>{{ $pedido->data_pedido }}</h3>
-            @elseif($pedido->nome_contratacao == 'RV')
+            @elseif($pedido->nome_funcionario == 'RV')
             <h3>Ricardo Valente</h2><h3>{{ $pedido->data_pedido }}</h3>
             @endif
 
             <p>{{ $pedido->descricao_pedidos }} - R$ {{ $pedido->preco_final }}</p>
 
             <a class="btn btn-outline-success my-2" href="{{ route('pedidos.index') }}">Voltar à Lista</a>
+            <a class="btn btn-warning" href="{{ route('pedidos.edit', $pedido->id)}}">Editar</a>
+
+            <form method="POST" action="{{ route('pedidos.destroy', $pedido->id) }}">
+                @csrf
+                @method('DELETE')
+
+                <input type="submit" value="Excluir Pedido" class="btn btn-danger">
+            </form>
         </div>
     </body>
 </html>

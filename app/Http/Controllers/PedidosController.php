@@ -61,8 +61,9 @@ class PedidosController extends Controller
     /**
      * Remove um gato específico
      */
-    public function destroy($id)
+    public function destroy(Pedido $pedido)
     {
-
+        $pedido->delete();
+        return redirect()->route('gatos.index');
     }
 }

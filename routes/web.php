@@ -30,4 +30,4 @@ Route::post('/pedidos', [PedidosController::class, 'store'])->name('pedidos.stor
 
 Route::put('/pedidos/{pedido}', [PedidosController::class, 'update'])->name('pedidos.update');
 
-Route::delete('/pedidos/{id}', [PedidosController::class, 'destroy'])->name('pedidos.destroy');
+Route::delete('/pedidos/{pedido}', [PedidosController::class, 'destroy'])->name('pedidos.destroy');
